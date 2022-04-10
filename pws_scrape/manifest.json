@@ -1,8 +1,12 @@
 {
   "domain": "pws_scrape",
   "name": "PWS_Scrape",
-  "version": "1.0",
   "documentation": "https://github.com/Condorello/HASS_pws_scraper",
+  "issue_tracker": "https://github.com/Condorello/HASS_pws_scraper/issues",
   "requirements": ["lxml", "beautifulsoup4==4.9.1"],
-  "codeowners": ["@condorello"]
+  "dependencies": [],
+  "config_flow": false,
+  "version": "1.1",
+  "codeowners": ["@condorello"],
+  "iot_class": "local_polling"
 }
